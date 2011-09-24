@@ -1,2 +1,2 @@
-/     -> HomHandler#home
+/     -> HomeHandler#home
 
