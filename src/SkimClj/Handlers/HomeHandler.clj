@@ -7,4 +7,4 @@
     :prefix "the-"))
 
 (defn the-home [this request]
-  (#(.renderFile %1 %2) (new Handler) "home.html"))
+  (#(.renderFile %1 %2) this "home.html"))

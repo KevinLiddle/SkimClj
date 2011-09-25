@@ -4,7 +4,9 @@
 
 (describe "Home Handling"
   (it "returns a Buffered Reader for the home page"
-    (should (HandlerTestHelpers/page (the-home (new Handlers.HomeHandler) "/") "SkimBot 3000"))))
+    (should (HandlerTestHelpers/page (the-home (new Handlers.HomeHandler) "/") "SkimBot 3000")))
+  (it "calls the home method"
+    (should (HandlerTestHelpers/mockExecute "/"))))
 
 (run-specs)
 

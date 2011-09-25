@@ -1,2 +1,6 @@
-/     -> HomeHandler#home
+/\w+.css           -> GUIHandler#guiRequests
+/\w+.(jpg|png|ico) -> GUIHandler#guiRequests
+/\w+.js            -> GUIHandler#guiRequests
+/                  -> HomeHandler#home
+/question/\d+      -> QuestionHandler#question
 
