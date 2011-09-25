@@ -9,9 +9,9 @@
       [:link {:rel "stylesheet" :type "type/css" :href "/application.css"}]
       [:title "SkimBot 3000"]]
      [:body
-      [:h2 {:class "question"} (get (nth questions question-id) :prompt)]
+      [:h2 {:class "question"} (prompt question-id)]
       [:table {:class "answers"}
-       (for [i (range 0 (count (get (nth questions question-id) :options)))]
+       (for [i (range 0 (count (options question-id)))]
          [:tr
           [:td
-           [:a {:href (str "/question/" question-id "/answer/" i)} (nth (get (nth questions question-id) :options) i)]]])]]]))
+           [:a {:href (str "/question/" question-id "/answer/" i)} (nth (options question-id) i)]]])]]]))

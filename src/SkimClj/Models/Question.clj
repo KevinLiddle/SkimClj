@@ -14,3 +14,15 @@
 
 (defn check-answer [question answer]
   (= (get (nth questions question) :answer_index) answer))
+
+(defn question-field [question-id field]
+  (get (nth questions question-id) field))
+
+(defn prompt [question-id]
+  (question-field question-id :prompt))
+
+(defn options [question-id]
+  (question-field question-id :options))
+
+(defn answer-index [question-id]
+  (question-field question-id :answer_index))
