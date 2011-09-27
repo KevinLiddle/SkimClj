@@ -1,0 +1,52 @@
+GET request for "/" of type text/html
+application responds with status 200 OK
+
+GET request for "/application.css" of type text/css
+application responds with status 200 OK
+
+GET request for "/question/0" of type text/html
+application responds with status 200 OK
+
+GET request for "/application.css" of type text/css
+application responds with status 200 OK
+
+GET request for "/question/0/answer/1" of type text/html
+application responds with status 200 OK
+
+GET request for "/application.css" of type text/css
+application responds with status 200 OK
+
+Server started on port 3000
+
+Server started on port 3000
+
+1: Client connected to server
+
+1: Client connected to server
+
+1: Client connected to server
+
+1: Client connected to server
+
+GET request for "/" of type text/html
+application responds with status 200 OK
+
+GET request for "/application.css" of type text/css
+application responds with status 200 OK
+
+GET request for "/question/0" of type text/html
+application responds with status 200 OK
+
+GET request for "/application.css" of type text/css
+application responds with status 200 OK
+
+1: Client connected to server
+
+GET request for "/question/0/answer/1" of type text/html
+application responds with status 200 OK
+
+1: Client connected to server
+
+GET request for "/application.css" of type text/css
+application responds with status 200 OK
+
